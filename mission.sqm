@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=484;
+		nextID=528;
 	};
 	class Camera
 	{
-		pos[]={21895.045,1920.8408,7210.8984};
+		pos[]={21560.229,1396.5011,7059.8755};
 		dir[]={-0.14938343,-0.87014729,-0.46962923};
 		up[]={-0.26376012,0.492798,-0.82920325};
 		aside[]={-0.95296627,-4.1586463e-007,0.30312666};
@@ -6909,7 +6909,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="false";
 										};
 									};
 								};
@@ -7251,7 +7251,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="false";
 										};
 									};
 								};
