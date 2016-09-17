@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=528;
+		nextID=550;
 	};
 	class Camera
 	{
@@ -5621,7 +5621,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPF_F,BLU_F,IND_F";
+													value="rhs_faction_usarmy_d,rhs_faction_msv,IND_G_F";
 												};
 											};
 										};
