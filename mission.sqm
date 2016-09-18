@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=550;
+		nextID=572;
 	};
 	class Camera
 	{
@@ -6685,7 +6685,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="2000";
+											value="10000";
 										};
 									};
 								};
