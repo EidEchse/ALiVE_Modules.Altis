@@ -8,7 +8,7 @@ class EditorData
 	toggles=69;
 	class ItemIDProvider
 	{
-		nextID=354;
+		nextID=355;
 	};
 	class MarkerIDProvider
 	{
@@ -967,7 +967,7 @@ class Mission
 											name="OPF_F";
 											class Entities
 											{
-												items=2;
+												items=3;
 												class Item0
 												{
 													dataType="Layer";
@@ -2698,9 +2698,309 @@ class Mission
 													id=294;
 													atlOffset=-57.806709;
 												};
+												class Item2
+												{
+													dataType="Logic";
+													class PositionInfo
+													{
+														position[]={19358,195.67468,9680};
+														angles[]={6.2046804,0,6.2658539};
+													};
+													id=354;
+													type="ALiVE_mil_placement_custom";
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="ALiVE_mil_placement_custom_composition";
+															expression="_this setVariable ['composition',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="false";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="ALiVE_mil_placement_custom_ambientVehicleAmount";
+															expression="_this setVariable ['ambientVehicleAmount',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="0";
+																};
+															};
+														};
+														class Attribute2
+														{
+															property="ALiVE_mil_placement_custom_placeSupplies";
+															expression="_this setVariable ['placeSupplies',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="false";
+																};
+															};
+														};
+														class Attribute3
+														{
+															property="ALiVE_mil_placement_custom_createHQ";
+															expression="_this setVariable ['createHQ',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="false";
+																};
+															};
+														};
+														class Attribute4
+														{
+															property="ALiVE_mil_placement_custom_customInfantryCount";
+															expression="_this setVariable ['customInfantryCount',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="1";
+																};
+															};
+														};
+														class Attribute5
+														{
+															property="ALiVE_mil_placement_custom_size";
+															expression="_this setVariable ['size',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="200";
+																};
+															};
+														};
+														class Attribute6
+														{
+															property="ALiVE_mil_placement_custom_readinessLevel";
+															expression="_this setVariable ['readinessLevel',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="0.5";
+																};
+															};
+														};
+														class Attribute7
+														{
+															property="ALiVE_mil_placement_custom_customArmourCount";
+															expression="_this setVariable ['customArmourCount',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="0";
+																};
+															};
+														};
+														class Attribute8
+														{
+															property="ALiVE_mil_placement_custom_faction";
+															expression="_this setVariable ['faction',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="rhs_faction_msv";
+																};
+															};
+														};
+														class Attribute9
+														{
+															property="ALiVE_mil_placement_custom_placeHelis";
+															expression="_this setVariable ['placeHelis',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="true";
+																};
+															};
+														};
+														class Attribute10
+														{
+															property="ALiVE_mil_placement_custom_priority";
+															expression="_this setVariable ['priority',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="40";
+																};
+															};
+														};
+														class Attribute11
+														{
+															property="ALiVE_mil_placement_custom_customSpecOpsCount";
+															expression="_this setVariable ['customSpecOpsCount',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="0";
+																};
+															};
+														};
+														class Attribute12
+														{
+															property="ALiVE_mil_placement_custom_customMotorisedCount";
+															expression="_this setVariable ['customMotorisedCount',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="0";
+																};
+															};
+														};
+														class Attribute13
+														{
+															property="ALiVE_mil_placement_custom_customMechanisedCount";
+															expression="_this setVariable ['customMechanisedCount',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="0";
+																};
+															};
+														};
+														class Attribute14
+														{
+															property="ALiVE_mil_placement_custom_debug";
+															expression="_this setVariable ['debug',_value,true];";
+															class Value
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="false";
+																};
+															};
+														};
+														nAttributes=15;
+													};
+												};
 											};
 											id=118;
-											atlOffset=31.385231;
+											atlOffset=34.802826;
 										};
 										class Item1
 										{
@@ -4216,7 +4516,7 @@ class Mission
 										};
 									};
 									id=117;
-									atlOffset=160.57907;
+									atlOffset=207.98224;
 								};
 								class Item1
 								{
@@ -6084,7 +6384,7 @@ class Mission
 								};
 							};
 							id=248;
-							atlOffset=16.993362;
+							atlOffset=25.440109;
 						};
 						class Item1
 						{
@@ -6196,7 +6496,7 @@ class Mission
 						};
 					};
 					id=116;
-					atlOffset=1.0839691;
+					atlOffset=17.51969;
 				};
 				class Item2
 				{
@@ -8043,7 +8343,7 @@ class Mission
 				};
 			};
 			id=109;
-			atlOffset=91.833282;
+			atlOffset=92.128418;
 		};
 		class Item1
 		{
@@ -9119,11 +9419,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=25;
+			nextID=26;
 		};
 		class Links
 		{
-			items=25;
+			items=26;
 			class Item0
 			{
 				linkID=0;
@@ -9369,6 +9669,16 @@ class Mission
 				linkID=24;
 				item0=164;
 				item1=351;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item25
+			{
+				linkID=25;
+				item0=354;
+				item1=311;
 				class CustomData
 				{
 					type="Sync";
